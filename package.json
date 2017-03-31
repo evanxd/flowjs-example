@@ -1,0 +1,22 @@
+{
+  "name": "flowjs-samples",
+  "description": "Flow.js's sample automation workflows.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Evan Tseng",
+    "email": "evan@tseng.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanxd/flowjs-samples"
+  },
+  "keywords": [
+    "automation",
+    "flowjs",
+    "webhook",
+    "workflow"
+  ],
+  "dependencies": {
+    "node-flowjs": "0.0.7"
+  }
+}

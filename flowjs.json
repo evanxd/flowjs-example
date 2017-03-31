@@ -1,0 +1,12 @@
+{
+  "webhook": {
+    "port": 8080
+  },
+  "email": {
+    "address": "Your Name <user@your-email.com>",
+    "user": "user",
+    "password": "password",
+    "host": "smtp.your-email.com",
+    "ssl": true
+  }
+}
