@@ -17,6 +17,6 @@
     "workflow"
   ],
   "dependencies": {
-    "node-flowjs": "0.0.7"
+    "node-flowjs": "^0.0.9"
   }
 }
