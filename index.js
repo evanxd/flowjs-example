@@ -9,3 +9,6 @@ flow.setup('expenditure-application-workflow', {
   approvalMailSubject:  'Got The Approval',
   approvalMailContent:  './template/approval.html',
 });
+
+flow.mailhook({ fromEmail: 'member@your-org.com', subject: 'expenditure-application-workflow', })
+    .trigger('expenditure-application-workflow', { applicantEmailSelector: 'table tr:first-child td:last-child' });
