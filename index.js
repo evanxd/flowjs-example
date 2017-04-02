@@ -1,7 +1,7 @@
 var flow = require('node-flowjs');
 
 flow.setup('expenditure-application-workflow', {
-  approverEmail:        'wowens@your-org.com',
+  approverId:           'wowens',
   requestMailSubject:   'Request An Approval',
   requestMailContent:   './template/request.html',
   rejectionMailSubject: 'The Application Is Rejected',
@@ -11,4 +11,4 @@ flow.setup('expenditure-application-workflow', {
 });
 
 flow.mailhook({ fromEmail: 'member@your-org.com', subject: 'expenditure-application-workflow', })
-    .trigger('expenditure-application-workflow', { applicantEmailSelector: 'table tr:first-child td:last-child' });
+    .trigger('expenditure-application-workflow', { applicantIdSelector: 'table tr:first-child td:last-child' });
