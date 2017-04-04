@@ -1,8 +1,8 @@
 var flow = require('node-flowjs');
 
 flow.setup('expenditure-application-workflow', {
-      approverId: 'wowens',
+      approverId: 'wowens'
     })
     .mailhook({
-      subject: 'expenditure-application-workflow',
+      subject: 'expenditure-application-workflow'
     });
