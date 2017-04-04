@@ -5,5 +5,4 @@ flow.setup('expenditure-application-workflow', {
     })
     .mailhook({
       subject: 'expenditure-application-workflow',
-      applicantIdSelector: 'table tr:first-child td:last-child',
     });
